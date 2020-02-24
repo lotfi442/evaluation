@@ -1,5 +1,6 @@
 import pandas as pd, sqlalchemy
-
+from re import findall
+from sqlalchemy import create_engine
 
 engine = sqlalchemy.create_engine(
         'mysql+pymysql://root:RNE_azerty'
